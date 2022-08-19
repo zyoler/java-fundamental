@@ -1,0 +1,43 @@
+TUGAS YANG TADI
+
+1.	Sebutkan keuntungan menggunakan String dibandingkan char[]!
+
+	Keuntungan menggunakan string yaitu kita bisa menginputkan banyak karakter sedangkan char[] 
+	hanya bisa menginputkan satu karakter.
+	Pengunaan string lebih hemat memori daripada char[]
+
+2.	String kalimat = "Abdullah adalah nama ayahnya.";
+	Tulislah kode untuk menghapus kata " adalah" di variabel kalimat.
+	
+	String kalimat = "Abdullah adalah nama ayahnya.";
+    System.out.println(kalimat.substring(0,8)+kalimat.substring(15,29));
+    StringBuilder sBuilder = new StringBuilder(kalimat);
+    System.out.println(sBuilder.delete(8,15));
+
+3.	String kalimat = "Rasulullah lahir pada tanggal 12 Rabiul Awal. Rasulullah lahir di Kota Mekah.";
+	Tulislah kode untuk mengganti semua kata "Rasulullah" dengan "Nabi Muhammad".
+		
+	String kalimat = "Rasulullah lahir pada tanggal 12 Rabiul Awal. Rasulullah lahir di Kota Mekah.";
+	System.out.println(kalimat.replaceAll("Rasulullah","Nabi Muhammad"));
+	System.out.println(kalimat.replace("Rasulullah","Nabi Muhammad"));
+
+4.	Apa keuntungan menggunakan StringBuilder?
+
+	Menghemat memori dikarenakan jika kita memanipulasi string maka akan terbuat alamat serta memori baru walaupun
+	data yang kita inputkan itu sama isinya;
+
+5.	StringBuilder kalimat = new StringBuilder("Nama saya ");
+	Output:
+	"Nama saya Dani"
+	(menambahkan nama kalian di belakangnya)
+	
+	StringBuilder kalimat = new StringBuilder("Nama saya ");
+    System.out.println(kalimat.append("Dani"));
+	
+6.	String nabi = "Rasulullah";
+	Cetaklah kalimat berikut menggunakan format specifier dengan 1 argumen saja.
+	"Rasulullah lahir pada tanggal 12 Rabiul Awal. Rasulullah lahir di Kota Mekah."
+	
+	String nabi = "Rasulullah";
+    System.out.printf("%1$s lahir pada tanggal 12 Rabiul Awal. %1$s lahir di Kota Mekah.",nabi);
+	

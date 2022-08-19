@@ -1,0 +1,33 @@
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.AnchorPane?>
+<VBox stylesheets="style.css" xmlns:fx="https://javafx.org/fxml" fx:controller="MainController">
+    <HBox fx:id="header">
+       <Label fx:id="logo">Neophyte Movies</Label>
+        <TextField>Cari</TextField>
+        <Button>Login</Button>
+    </HBox>
+    <HBox>
+        <VBox fx:id="drawer">
+            <Button fx:id="homeButton">Beranda</Button>
+            <Button fx:id="moviesButton">Film</Button>
+            <Button fx:id="animationButton">Animasi</Button>
+            <Button fx:id="seriesButton">Serial</Button>
+            <Button fx:id="settingsButton">Setelan</Button>
+            <Button fx:id="helpButton">Bantuan</Button>
+        </VBox>
+        <AnchorPane fx:id="content">
+            <VBox>
+                <Label styleClass="title" fx:id="title">Beranda</Label>
+            </VBox>
+        </AnchorPane>
+
+    </HBox>
+</VBox>

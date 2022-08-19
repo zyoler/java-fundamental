@@ -1,0 +1,6 @@
+2021-11-01 21:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MAHASISWA" already exists; SQL statement:
+CREATE TABLE mahasiswa(nim CHAR(4) PRIMARY KEY NOT NULL, nama VARCHAR(20)) [42101-200]
+2021-11-01 21:16:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MAHASISWA" already exists; SQL statement:
+CREATE TABLE mahasiswa(nim CHAR(4) PRIMARY KEY NOT NULL, nama VARCHAR(20)) [42101-200]

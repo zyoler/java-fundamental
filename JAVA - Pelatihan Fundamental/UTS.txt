@@ -1,0 +1,100 @@
+Kisi-Kisi UTS Java 
+
+Dasar
+• print, println, printf
+Print itu mencetak output tanpa adanya format serta baris baru
+printf itu sangat berguna jika ingin mencetak output dengan format
+println itu menambahkan baris baru
+• Scanner
+Scanner itu adalah fungsi untuk menginputkan data/nilai menggunakan java.util.Scanner
+• ForEach
+ForEach fungsinya yaitu mencetak dengan mudah semua data array pada program tanpa perlu kita beri batas berhenti
+
+Collection
+• ArrayList
+Array:List = Sekumpulan data yang berupa value
+• HashSet
+HashSet = Sekumpulan data tidak bisa ada data duplikat dan tidak urut
+• HashMap
+Hashmap = Sekumpulan data yang key dan value
+
+OOP Dasar
+• Class & object
+Class = Rancangan atau blueprint dari objek
+Object = Perwujudan dari class
+• Property & method
+//PersiapanUTS2
+• Constructor
+//PersiapanUTS3
+• Static
+//PersiapanUTS2
+Bisa langsung dipanggil tanpa membuat objek, static hanya bisa dipanggil dari class dan bukan objek atau interface
+Static bisa digunakan dalam class ataupun properti
+Properti adalah variabel yang ada didalam class
+• Access modifier
+PRIVATE: hanya dari dalam class
+DEFAULT: dari class dan package
+PROTECTED: dari class, package, subclass
+PUBLIC: mana saja atau beda package atau world
+• Interface & implement
+
+
+OOP Encapsulation = Pembungkusan
+• Getter & setter
+Cara cepat yaitu Alt + Insert
+Keuntungan memakainya : 
+1. Penyembunyiaan data
+2. Data bisa dibaca saja atau dibaca/diubah saja
+3. Bisa digunakan kembali
+4. Kontrol total
+5. Mudah diuji
+6. Fleksibel
+
+OOP Inheritance = Pewarisan
+• Extend
+Extend adalah pewarisan
+• this & super
+This yaitu class itu sendiri
+Super yaitu mengambil ke class induk
+
+OOP Abstraction
+• Abstract
+Abstract pada class : Membatasi bahwa class ini tidak boleh dibuat objek
+
+Abstract pada method : Abtract itu ga punya isi
+Non Abtract itu harus diisi
+
+Abstract vs interface
+Interface bisa untuk pewarisan lebih dari satu
+Interface tidak bisa diberi access modifier(kecuali public)
+Properti di interface selalu final, public, static dan harus memiliki value
+Method di interface selalu abstract, public
+
+OOP Polymorphism = Perubahan bentuk
+• Method overloading
+OVERLOADING yaitu memanggil fungsi sesuai dengan argumen yang kita masukan
+• Method overriding
+Override yaitu menimpa fungsi yang ada pada induknya
+
+
+Java adalah bahasa pemograman tingkat tinggi yang berbasis oop
+Java bisa dijalankan di berbagai macam platform karena adanya JRE (Java Runtime Development)
+disemua perangkatan komputer zaman sekarang, selain itu ada prinsip dalam pengodingan java yaitu
+"tulis sekali, jalankan dimana saja"
+
+Hal yang bisa kita forEach =
+Array : String[] strings;
+ArrayList : ArrayList<String> 
+HashSet : HashSet<String>
+HashMap : HashMap<String, Object>
+
+Perbedaan arrayList dan HastSet
+1. Arraylist urut ketika dicetak menggunakan forEach, sedangkan
+HashSet acak
+2. HashSet datanya tidak bisa diduplikasi sedangkan ArrayList bisa
+
+Apa itu java? 
+Java adalah bahasa pemograman tingkat tinggi yang berbasis oop, java awalnya muncul pada tahun 1991,
+projekan pertama java yaitu Sun Microsystem(Green Project), pembuat pertama java yaitu Patrick Naughton & James Gosling
+Setting path diperlukan apabila kita ingin compile dan run kode ".java" diluar folder bin yang ada pada JDK
+

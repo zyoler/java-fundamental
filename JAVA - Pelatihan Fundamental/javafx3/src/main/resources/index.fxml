@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.neophyte.javafx3.IndexController"
+      prefHeight="256" prefWidth="128">
+    <Label>Hello World</Label>
+    <Button>Open another stage</Button>
+    <HBox>
+        <Button>+</Button>
+        <Button>-</Button>
+        <Button>*</Button>
+        <Button>/</Button>
+        <Button>=</Button>
+    </HBox>
+</VBox>
